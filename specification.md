@@ -34,6 +34,6 @@ Hair - Hovering will reveal information regarding the dish, eg) vegan, gluten-fr
 
 The program should allow user to upload new recipes, or delete existing ones.
 
-<b>ADDITIONAL FEATURES<b/>
+<b>ADDITIONAL FEATURES</b>
 
 Additional features to consider is allowing different animal themes, or creating the original mobile app version. Of course, these will be considered if time permits.
