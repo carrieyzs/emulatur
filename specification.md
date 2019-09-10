@@ -29,7 +29,9 @@ The header of the webpage will contain the Mouth, Eyes and Hair visual elements,
 another page).
 
 Mouth - Clicking will toggle the mouth to display the 4 categories.
+
 Eyes - Indicates the spiciness of the dish (range from green-red).
+
 Hair - Hovering will reveal information regarding the dish, eg) vegan, gluten-free, optional ingredients, etc.
 
 The program should allow user to upload new recipes, or delete existing ones.
