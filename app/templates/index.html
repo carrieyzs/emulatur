@@ -1,10 +1,17 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <!-- TODO: troubleshoot css linking -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
-<body>
+<body id="home">
     <h1>Welcome to emulatur. Hope you are hungry.</h1>
+
+    <!-- TODO: put face :3 -->
+    <div id="home_container">
+        <div id="eyes"></div>
+    </div>
 </body>
-</html>s
+</html>
