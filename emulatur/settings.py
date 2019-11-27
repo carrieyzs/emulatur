@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'recipe_app'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,10 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # To specify to use templates in the 'templates' folder
-        'DIRS': [os.path.join(BASE_DIR, 'app/templates')],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'recipe_app/templates'),
+            os.path.join(BASE_DIR, 'your_app_name', 'templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
