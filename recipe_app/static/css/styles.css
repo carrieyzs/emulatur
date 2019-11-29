@@ -1,8 +1,21 @@
-/* To test linking works */
 body{
-    background-color: cornflowerblue;
+    background-color: #5f2b2e;
 }
 
-h1 {
-    color: goldenrod
-  }
+#home_container{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.home_img{
+    width: 60%;
+    height: auto;
+}
+
+#home_eyes{
+    margin-top: -40%;   /* to overlap images... too hardcoded?*/
+}
+
+#home_beak{
+    margin-top: -25%;
+}

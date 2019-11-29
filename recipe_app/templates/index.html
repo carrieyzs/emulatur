@@ -2,16 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- TODO: troubleshoot css linking -->
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
 <body id="home">
-    <h1>Welcome to emulatur. Hope you are hungry.</h1>
-
-    <!-- TODO: put face :3 -->
     <div id="home_container">
-        <div id="eyes"></div>
+        <div id="home_hair" class="home_component">
+            <img class="home_img" src="{% static 'images/hair.png' %}" />
+        </div>
+        <div id="home_eyes">
+            <img class="home_img" src="{% static 'images/eyes.png' %}" />
+        </div>
+        <div id="home_beak">
+            <img class="home_img" src="{% static 'images/beak.png' %}" />
+        </div>
     </div>
 </body>
 </html>
