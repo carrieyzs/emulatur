@@ -4,7 +4,7 @@ body{
 
 #home_container{
     text-align: center;
-    margin-top: -10px;
+    margin-top: -6%;
 }
 
 .home_img{
@@ -17,5 +17,5 @@ body{
 }
 
 #home_beak{
-    margin-top: -25%;
+    margin-top: -20%;
 }
