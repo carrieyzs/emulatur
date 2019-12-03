@@ -21,5 +21,13 @@ body{
 }
 
 #home_beak{
+    border: 1px solid black;
     margin-top: -20%;
+}
+
+#home_beak img{
+    border: 1px solid black;
+}
+
+area{
 }
