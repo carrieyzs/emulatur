@@ -1,0 +1,13 @@
+Recipe
+	Title 		Name of the recipe			*CharField*
+	TypeOfCuisine 	Chinese, Japanese, seafood, etc 	*ManyToMany* -> 
+	Summary		Blurb of the dish			*TextField*
+	TimeToMake	The expected prep and cook times	*TimeField*
+	Ingredients	List of ingredients...can parse?	*TextField*
+	RecipeSteps	The actual recipe 			*TextField*
+	CoverPhoto 	Cover picture of the food		*ImageField*
+
+
+Could possibly do Postgres and use ArrayField for Ingredients
+
+
