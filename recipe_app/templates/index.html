@@ -3,7 +3,7 @@
 <html id="home">
 <head>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    <script src="{% static 'js/script.js' %}"></script>
+    <script type="text/javascript" src="{% static '/js/script.js' %}"></script>
 </head>
 
 <body id="home">
@@ -15,10 +15,10 @@
             <img class="home_img" src="{% static 'images/eyes.png' %}" />
         </div>
         <div id="home_beak" usemap="#catalog_map">
-            <img id="hair_img" class="home_img" src="{% static 'images/beak.png' %}" />
-            <map name="catalog_map">
+            <img id="beak_img" class="home_img" src="{% static 'images/beak.png' %}" onclick="changePic()" />
+            <!-- <map name="catalog_map">
                 <area shape="rect" target="_self" coords="100, 120, 250, 180" onclick="changePic()" />
-            </map>
+            </map> -->
         </div>
     </div>
 </body>

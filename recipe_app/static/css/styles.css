@@ -21,13 +21,11 @@ body{
 }
 
 #home_beak{
-    border: 1px solid black;
+    text-align: center;
+    border: 1px solid black;    /* remove once open beak is working */
     margin-top: -20%;
 }
 
 #home_beak img{
-    border: 1px solid black;
-}
-
-area{
+    border: 1px solid black;    /* remove once open beak is working */
 }

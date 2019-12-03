@@ -1,3 +1,10 @@
 function changePic(){
-    document.getElementById("hair_img").src = "{% static 'images/beak_open.png' %}"
+    console.log("test")
+    var elem = document.createElement("img")
+    elem.setAttribute("width", "60%")
+    elem.setAttribute("height", "auto")
+    elem.setAttribute("margin-top", "-25%")
+    elem.src = "{% static 'images/beak_open.png' %}"
+    document.getElementById("home_beak").appendChild(elem)
+
 }
