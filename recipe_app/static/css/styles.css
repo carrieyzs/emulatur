@@ -1,6 +1,6 @@
-html #home{
+/* html #home{
     overflow-y: hidden;
-}
+} */
 
 body{
     background-color: #5f2b2e;
@@ -22,10 +22,10 @@ body{
 
 #home_beak{
     text-align: center;
-    border: 1px solid black;    /* remove once open beak is working */
     margin-top: -20%;
 }
 
-#home_beak img{
-    border: 1px solid black;    /* remove once open beak is working */
+
+#home_beak_open{
+    margin-top: -34%;
 }
