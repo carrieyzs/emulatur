@@ -6,4 +6,8 @@ from django.template import loader
 
 def index(request):
     return render(request, 'index.html', {})
+
+
+class HomepageView(TemplateView):
+    template_name = 'index.html'
         
