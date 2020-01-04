@@ -1,27 +1,27 @@
 var beakIsOpen = false
 
 function changePic(){
-    console.log(beakIsOpen)
+    // Make a base input element to switch into
     var elem = document.createElement("input")
     elem.setAttribute("type", "image")
     elem.setAttribute("onclick", "changePic()")
     elem.setAttribute("class", "home_img")
     elem.setAttribute("name", "beak_img")
 
-    let closed_div = document.getElementById("home_beak")
     let open_div = document.getElementById("home_beak_open")
 
     if (!beakIsOpen){
         elem.src = "../static/images/beak_open.png"
+        elem.id = "open_beak"
 
-        open_div.appendChild(elem)
-        closed_div.remove
+        open_div.appendChild(elem) 
     }
     else{
-        let div = document.getElementById("home_beak_open")
         elem.src = "../static/images/beak.png"
+        elem.id = "closed_beak"
 
-        div.removeChild(div.firstChild)
+        open_div.removeChild(document.getElementById("open_beak"));
+        
     }
     beakIsOpen = !beakIsOpen
 }
