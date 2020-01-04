@@ -15,7 +15,8 @@
             <img class="home_img" src="{% static 'images/eyes.png' %}" />
         </div>
         <div id="home_beak" usemap="#catalog_map">
-            <img id="beak_img" class="home_img" src="{% static 'images/beak.png' %}" onclick="changePic()" />
+            <input type="image" src="{% static 'images/beak.png' %}" name="beak_img" class="home_img" id="home_img" onclick="changePic()" />
+            {% comment %} <img id="beak_img" class="home_img" src="{% static 'images/beak.png' %}" onclick="changePic()" /> {% endcomment %}
             <!-- <map name="catalog_map">
                 <area shape="rect" target="_self" coords="100, 120, 250, 180" onclick="changePic()" />
             </map> -->
