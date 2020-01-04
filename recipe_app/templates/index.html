@@ -3,9 +3,10 @@
 <html id="home">
 <head>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script type="text/javascript" src="{% static '/js/script.js' %}"></script>
 </head>
 
-<body id="home">
+<body>
     <div id="home_container">
         <div id="home_hair" class="home_component">
             <img class="home_img" src="{% static 'images/hair.png' %}" />
@@ -13,9 +14,15 @@
         <div id="home_eyes">
             <img class="home_img" src="{% static 'images/eyes.png' %}" />
         </div>
-        <div id="home_beak">
-            <img class="home_img" src="{% static 'images/beak.png' %}" />
+        <div id="home_beak" usemap="#catalog_map">
+            <img id="beak_img" class="home_img" src="{% static 'images/beak.png' %}" onclick="changePic()" />
+            <!-- <map name="catalog_map">
+                <area shape="rect" target="_self" coords="100, 120, 250, 180" onclick="changePic()" />
+            </map> -->
         </div>
+        <div id="home_beak_open"></div>
     </div>
+
+    <a href="{% url 'home' %}">Home</a>
 </body>
 </html>
