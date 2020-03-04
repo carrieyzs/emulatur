@@ -6,5 +6,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.HomepageView.as_view(), name='home'), # Notice the URL has been named
+    url('/recipes/', views.RecipeView.as_view(), name='recipes'),
     path(r'index.html', views.index, name='index'),
 ]
