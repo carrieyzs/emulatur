@@ -1,13 +1,37 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
 <body>
-    <h1>testing</h1>
+    <!-- <h1>testing</h1> -->
+    <div id="recipe_container">
+        <div id="recipe_hair">
+            <img class="home_img" src="{% static 'images/r_hair.png' %}" />
+        </div>
+        <div id="recipe_eyes">
+            <img class="home_img" src="{% static 'images/eyes.png' %}" />
+        </div>
+        <div id="recipe_beak">
+            <img class="home_img" src="{% static 'images/beak.png' %}" />
+            <div id="beak_wrapper">
+                <!-- <p>test</p> -->
+                <ul>
+                    <li> one</li>
+                    <li>twwo</li>
+                    <li>three</li>
+                    <li>three</li>
+                    <li>three</li>
+                    <li>three</li>
+                    <li>three</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <a href="{% url 'home' %}">Home</a>
 </body>
 </html>

@@ -11,6 +11,11 @@ body{
     margin-top: -6%;
 }
 
+#recipe_container{
+    text-align: center;
+    margin-top: -12.5%;
+}
+
 .home_img{
     width: 60%;
     height: auto;
@@ -20,12 +25,35 @@ body{
     margin-top: -40%;   /* to overlap images... too hardcoded?*/
 }
 
+#recipe_eyes{
+    margin-top: -43%;
+}
+
 #home_beak{
     text-align: center;
     margin-top: -20%;
 }
 
+#recipe_beak{
+    text-align: center;  /* TODO: fix. not working? */
+    margin-top: -27%;
+}
+
+/*  TODO: fix beak (flatten?). it looks weird as it is
+#recipe_beak img{} */
 
 #home_beak_open{
     margin-top: -34%;
+}
+
+#beak_wrapper{
+    margin-top: -22%;
+    margin-left: 30%;       /* TODO: not ideal. remove after recipe_beak text-align is fixed. */
+    border: 5px groove  #febfa3;
+    box-shadow: 0 0 8px 10px #3A1A1C;     /* h-offset v-offset blur spread colour*/
+    border-radius: 15px;
+    width: 40%;
+
+    /* TODO: attempt to use open beak as bg image. remove border if it works */
+    /* background-image: url('static/images/beak_open.png'); */
 }
